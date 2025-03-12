@@ -1,0 +1,57 @@
+.admincontainer {
+  padding: 10px;
+  margin: 20px;
+}
+
+.usercontainer {
+  padding: 10px;
+  margin: 20px;
+}
+
+/* .ant-table-cell {
+  text-align: center !important;
+} */
+
+.admincount {
+  border: 1px solid black;
+  margin-right: 7%;
+  border-radius: 10px;
+}
+
+.admincontainer .position {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.admincontainer .position h3 {
+  font-size: 30px !important;
+  font-weight: 200 !important;
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+  background-color: white !important;
+}
+
+@media only screen and (max-width: 320px) {
+  .note {
+    width: 100% !important;
+  }
+}
+
+.linegraph {
+  height: 50vh;
+}
+
+@media only screen and (max-width: 376px) {
+  .note {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .note {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,52 @@
+.tick {
+  color: red;
+}
+
+.forminput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+input[type="password"] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.forminput label {
+  font-size: 18px;
+}
+
+.forminput .error-text {
+  color: red;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.adminlogin .error-text {
+  color: red;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.formbutton {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.formbutton button {
+  border-radius: 5px;
+  background-color: #ffe172;
+  border: none;
+  padding: 5px;
+  text-align: center;
+}
