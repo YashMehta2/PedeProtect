@@ -11,7 +11,7 @@ function Cookie() {
         .split(":")
         .map((cookie) => cookie.split("="))
         .reduce((acc, [key, value]) => ({ ...acc, [key.trim()]: value }), {});
-      /*The key.trim() is used to remove any whitespace from the key. */
+      /*The key.trim() is used to remove any whitespacesd from the key. */
       /*The { ...acc, [key.trim()]: value } syntax creates a new object by spreading the acc object and adding a new property using computed property names. This syntax allows us to dynamically set the property name based on the key.trim() value. */
       return cookies[key];
     },
